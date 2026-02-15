@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfólio — Alicia Designer</title>
+    <link rel="icon" href="img/artist.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="description" content="Portfólio de Alicia — designer especializada em branding, UI/UX e design gráfico.">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Navegação principal">
+        <a class="logo" href="#apresentacao">Portfólio - Alicia</a>
+        <ul class="nav-list">
+          <li><a href="#apresentacao">Início</a></li>
+          <li><a href="#bio">Bio</a></li>
+          <li><a href="#resumo">Resumo</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="apresentacao" class="hero container">
+        <div class="hero-grid">
+          <figure class="profile">
+            <!-- Foto de perfil local (colocada em /img) -->
+            <img class="avatar" src="img/Alicia.jpeg" alt="Foto de perfil de Alicia" width="160" height="160">
+            <figcaption class="profile-meta">
+              <h1 class="name">Alícia Christielly Lopes da Silva</h1>
+              <p class="role">Designer de Produto & Branding</p>
+              <div class="socials">
+                <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                <a href="#" aria-label="Behance">Behance</a>
+                <a href="#" aria-label="Instagram">Instagram</a>
+              </div>
+            </figcaption>
+          </figure>
+          <br>
+          <div class="hero-content">
+            <p class="hero-lead">Crio identidades visuais e experiências digitais que comunicam com clareza e emoção.</p>
+            <p class="hero-cta"><a href="#projetos" class="btn">Ver projetos</a> <a href="#contato" class="btn btn-outline">Contratar</a></p>
+          </div>
+        </div>
+      </section>
+
+      <section id="bio" class="container section">
+        <h2 class="section-title">Sobre</h2>
+        <p>
+          Sou uma designer apaixonada por transformar ideias em soluções visuais memoráveis. Trabalho com design gráfico, UI/UX e branding, combinando estética e estratégia para entregar projetos com impacto.
+        </p>
+        <p>
+          Tenho experiência em criação de identidade visual, design de interfaces e materiais editoriais. Minha filosofia de trabalho prioriza clareza, propósito e colaboração — acredito que bom design nasce da empatia pelo usuário e de um processo iterativo.
+        </p>
+        <p>
+          Ferramentas: Adobe Photoshop, Illustrator, InDesign, Figma e prototipagem rápida. Encontro inspiração em tipografia, fotografia e em projetos que contam histórias.
+        </p>
+      </section>
+
+      <section id="resumo" class="container section">
+        <h2 class="section-title">Resumo Profissional</h2>
+        <ul class="resume-list">
+          <li><strong>+6 anos</strong> de experiência em design multimídia</li>
+          <li><strong>Especialidades:</strong> Identidade visual, UI/UX, design editorial, ilustração</li>
+          <li><strong>Habilidades:</strong> Estratégia de marca, prototipagem, design responsivo</li>
+          <li><strong>Diferencial:</strong> Abordagem centrada no usuário e entrega orientada por resultados</li>
+        </ul>
+      </section>
+
+      <section id="projetos" class="container section">
+        <h2 class="section-title">Projetos</h2>
+
+        <div class="filters" role="tablist" aria-label="Filtrar projetos">
+          <button class="filter active" data-filter="all" aria-pressed="true">Todos</button>
+          <button class="filter" data-filter="Escolares">Escolares</button>
+          <button class="filter" data-filter="Banners">Banners</button>
+          <button class="filter" data-filter="Diversos">Diversos</button>
+          
+        </div>
+
+        <div class="projects-wrap">
+          <div class="projects-grid" id="projects" aria-live="polite">
+
+            <!-- ESCOLARES -->
+
+            <article class="project-card" data-category="Escolares" tabindex="0">
+              <div class="cover" aria-hidden="true">
+                <img src="img/Etiqueta-escolar_1.jpeg" alt="Capa do projeto: Identidade da escola Max Alencar">
+              </div>
+              <div class="card-body">
+                <h3>Etiqueta escolar</h3>
+                <p class="desc">Para a disciplina de Ciências na Max Alencar, 4° ano.</p>
+                <!-- <div class="tags"><span>Branding</span><span>Packaging</span></div> -->
+              </div>
+            </article>
+            <article class="project-card" data-category="Escolares" tabindex="0">
+              <div class="cover" aria-hidden="true">
+                <img src="img/Etiqueta-escolar_2.jpg.jpeg" alt="Capa do projeto: Identidade para café local">
+              </div>
+              <div class="card-body">
+                <h3>Etiqueta escolar</h3>
+                <p class="desc">Para a disciplina de Ciências na Max Alencar, 4° ano.</p>
+                <!-- <div class="tags"><span>Branding</span><span>Packaging</span></div> -->
+              </div>
+            </article>
+            <article class="project-card" data-category="Escolares" tabindex="0">
+              <div class="cover" aria-hidden="true">
+                <img src="img/Etiqueta-escolar_3.jpg.jpeg" alt="Capa do projeto: Identidade para café local">
+              </div>
+              <div class="card-body">
+                <h3>Etiqueta escolar</h3>
+                <p class="desc">Para a disciplina de Ciências na Max Alencar, 4° ano.</p>
+                <!-- <div class="tags"><span>Branding</span><span>Packaging</span></div> -->
+              </div>
+            </article>
+            <article class="project-card" data-category="Escolares" tabindex="0">
+              <div class="cover" aria-hidden="true">
+                <img src="img/Caderno-person-1.jpeg" alt="Capa do projeto: Identidade para café local">
+              </div>
+              <div class="card-body">
+                <h3>Etiqueta escolar</h3>
+                <p class="desc">Para a disciplina de Ciências na Max Alencar, 4° ano.</p>
+                <!-- <div class="tags"><span>Branding</span><span>Packaging</span></div> -->
+              </div>
+            </article>
+            <article class="project-card" data-category="Escolares" tabindex="0">
+              <div class="cover" aria-hidden="true">
+                <img src="img/Caderno-person-2.jpeg" alt="Capa do projeto: Identidade para café local">
+              </div>
+              <div class="card-body">
+                <h3>Etiqueta escolar</h3>
+                <p class="desc">Para a disciplina de Ciências na Max Alencar, 4° ano.</p>
+                <!-- <div class="tags"><span>Branding</span><span>Packaging</span></div> -->
+              </div>
+            </article>
+            <article class="project-card" data-category="Escolares" tabindex="0">
+              <div class="cover" aria-hidden="true">
+                <img src="img/Caderno-person-3.jpeg" alt="Capa do projeto: Identidade para café local">
+              </div>
+              <div class="card-body">
+                <h3>Etiqueta escolar</h3>
+                <p class="desc">Para a disciplina de Ciências na Max Alencar, 4° ano.</p>
+                <!-- <div class="tags"><span>Branding</span><span>Packaging</span></div> -->
+              </div>
+            </article>
+            <article class="project-card" data-category="Escolares" tabindex="0">
+              <div class="cover" aria-hidden="true">
+                <img src="img/Caderno-person-4.jpeg" alt="Capa do projeto: Identidade para café local">
+              </div>
+              <div class="card-body">
+                <h3>Etiqueta escolar</h3>
+                <p class="desc">Para a disciplina de Ciências na Max Alencar, 4° ano.</p>
+                <!-- <div class="tags"><span>Branding</span><span>Packaging</span></div> -->
+              </div>
+            </article>
+            <article class="project-card" data-category="Escolares" tabindex="0">
+              <div class="cover" aria-hidden="true">
+                <img src="img/Caderno-person-5.jpeg" alt="Capa do projeto: Identidade para café local">
+              </div>
+              <div class="card-body">
+                <h3>Etiqueta escolar</h3>
+                <p class="desc">Para a disciplina de Ciências na Max Alencar, 4° ano.</p>
+                <!-- <div class="tags"><span>Branding</span><span>Packaging</span></div> -->
+              </div>
+            </article>
+            <article class="project-card" data-category="Escolares" tabindex="0">
+              <div class="cover" aria-hidden="true">
+                <img src="img/Caderno-person-6.jpeg" alt="Capa do projeto: Identidade para café local">
+              </div>
+              <div class="card-body">
+                <h3>Etiqueta escolar</h3>
+                <p class="desc">Para a disciplina de Ciências na Max Alencar, 4° ano.</p>
+                <!-- <div class="tags"><span>Branding</span><span>Packaging</span></div> -->
+              </div>
+            </article>
+            <article class="project-card" data-category="Escolares" tabindex="0">
+              <div class="cover" aria-hidden="true">
+                <img src="img/Caderno-person-7.jpeg" alt="Capa do projeto: Identidade para café local">
+              </div>
+              <div class="card-body">
+                <h3>Etiqueta escolar</h3>
+                <p class="desc">Para a disciplina de Ciências na Max Alencar, 4° ano.</p>
+                <!-- <div class="tags"><span>Branding</span><span>Packaging</span></div> -->
+              </div>
+            </article>
+
+            <!-- BANNERS -->
+
+            <article class="project-card" data-category="Banners" tabindex="0">
+              <div class="cover">
+                <img src="img/Banner-1.jpeg" alt="Vende-se esse terreno">
+              </div>
+              <div class="card-body">
+                <h3>Banner de terreno</h3>
+                <p class="desc">Banner apresentando o terreno para venda.</p>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="Banners" tabindex="0">
+              <div class="cover">
+                <img src="img/Banner-2.jpeg" alt="Vende-se esse terreno">
+              </div>
+              <div class="card-body">
+                <h3>Banner de terreno</h3>
+                <p class="desc">Banner apresentando o terreno para venda.</p>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="Banners" tabindex="0">
+              <div class="cover">
+                <img src="img/Banner-3.jpeg" alt="Aluga-se esse terreno">
+              </div>
+              <div class="card-body">
+                <h3>Banner de terreno</h3>
+                <p class="desc">Banner apresentando o terreno para aluguel.</p>
+              </div>
+            </article>
+
+            <!-- DIVERSOS -->
+
+            <article class="project-card" data-category="Diversos" tabindex="0">
+              <div class="cover">
+                <img src="img/Cartão_de_visita.jpg" alt="Capa do projeto: Cartão de visita">
+              </div>
+              <div class="card-body">
+                <h3>Cartão de visita</h3>
+                <p class="desc">Projeto de cartão de visita para uma empresa local.</p>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="Diversos" tabindex="0">
+              <div class="cover">
+                <img src="img/Convites.jpeg" alt="Capa do projeto: Convites">
+              </div>
+              <div class="card-body">
+                <h3>Convites</h3>
+                <p class="desc">Projeto de convites para evento social.</p>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="Diversos" tabindex="0">
+              <div class="cover">
+                <img src="img/Cavalete.jpeg" alt="Capa do projeto: Cavalete">
+              </div>
+              <div class="card-body">
+                <h3>Cavalete</h3>
+                <p class="desc">Projeto de cavalete para exposição de arte.</p>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="Diversos" tabindex="0">
+              <div class="cover">
+                <img src="img/Diverso-1.jpeg" alt="Capa do projeto: Diverso 1">
+              </div>
+              <div class="card-body">
+                <h3>Diverso 1</h3>
+                <p class="desc">Projeto diverso para uso variado.</p>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="Diversos" tabindex="0">
+              <div class="cover">
+                <img src="img/Diverso-2.jpeg" alt="Capa do projeto: Diverso 2">
+              </div>
+              <div class="card-body">
+                <h3>Diverso 2</h3>
+                <p class="desc">Projeto diverso para uso variado.</p>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="Diversos" tabindex="0">
+              <div class="cover">
+                <img src="img/Diverso-3.jpeg" alt="Capa do projeto: Diverso 3">
+              </div>
+              <div class="card-body">
+                <h3>Diverso 3</h3>
+                <p class="desc">Projeto diverso para uso variado.</p>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="Diversos" tabindex="0">
+              <div class="cover">
+                <img src="img/Fachada-1.jpeg" alt="Capa do projeto: Fachada 1">
+              </div>
+              <div class="card-body">
+                <h3>Fachada 1</h3>
+                <p class="desc">Projeto de fachada para uso variado.</p>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="Diversos" tabindex="0">
+              <div class="cover">
+                <img src="img/Papel_de_parede.jpeg" alt="Capa do projeto: Papel de parede">
+              </div>
+              <div class="card-body">
+                <h3>Papel de parede</h3>
+                <p class="desc">Projeto de papel de parede para uso variado.</p>
+              </div>
+            </article>
+
+                        
+
+          </div>
+        </div>
+      </section>
+
+      <section id="contato" class="container section contact">
+        <h2 class="section-title">Contato</h2>
+        <p>Interessado em trabalhar junto? Envie uma mensagem:</p>
+          <div class="form-actions">
+            <button type="submit" href="https://wa.me/5592994620862?text=Quero%20saber%20mais%20sobre%20o%20seu%20trabalho" class="btn">Whatsapp</button>
+
+          </div>
+          <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+
+    </main>
+
+    <div id="modal" class="modal" aria-hidden="true">
+      <div class="modal-dialog" role="dialog" aria-modal="true">
+        <button class="modal-close" aria-label="Fechar">×</button>
+        <div class="modal-content"></div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container">© Alicia Moretti — Designer</div>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+  </body>
+</html>
