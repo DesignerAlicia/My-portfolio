@@ -4,11 +4,16 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portfólio — Alicia Designer</title>
-    <link rel="icon" href="artist.png" type="image/x-icon">
+    <link rel="icon" href="img/artist.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    </noscript>
+    <link rel="preload" href="css/styles.css" as="style">
     <link rel="stylesheet" href="css/styles.css">
-    <meta name="description" content="Portfólio de Alicia — designer especializada em branding, UI/UX e design gráfico.">
+    <meta name="description" content="Portfólio de Alicia — designer">
   </head>
   <body>
     <header class="site-header">
@@ -28,8 +33,8 @@
       <section id="apresentacao" class="hero container">
         <div class="hero-grid">
           <figure class="profile">
-            <!-- Foto de perfil local -->
-            <img class="avatar" src="Alicia.jpeg" alt="Foto de perfil de Alicia" width="160" height="160">
+            <!-- Foto de perfil local (colocada em /img) -->
+            <img class="avatar" src="img/Alicia.jpeg" alt="Foto de perfil de Alicia" width="160" height="160" loading="eager" decoding="async">
             <figcaption class="profile-meta">
               <h1 class="name">Alícia Christielly Lopes da Silva</h1>
               <p class="role">Designer de Produto & Branding</p>
@@ -57,15 +62,14 @@
           Tenho experiência em criação de identidade visual, design de interfaces e materiais editoriais. Minha filosofia de trabalho prioriza clareza, propósito e colaboração — acredito que bom design nasce da empatia pelo usuário e de um processo iterativo.
         </p>
         <p>
-          Ferramentas: Adobe Photoshop, Illustrator, InDesign, Figma e prototipagem rápida. Encontro inspiração em tipografia, fotografia e em projetos que contam histórias.
+          Ferramentas: Corel Draw, Canva e Photoshop. Encontro inspiração em tipografia, fotografia e em projetos que contam histórias.
         </p>
       </section>
 
       <section id="resumo" class="container section">
         <h2 class="section-title">Resumo Profissional</h2>
         <ul class="resume-list">
-          <li><strong>+6 anos</strong> de experiência em design multimídia</li>
-          <li><strong>Especialidades:</strong> Identidade visual, UI/UX, design editorial, ilustração</li>
+          <li><strong>+2 anos</strong> de experiência em design multimídia</li>
           <li><strong>Habilidades:</strong> Estratégia de marca, prototipagem, design responsivo</li>
           <li><strong>Diferencial:</strong> Abordagem centrada no usuário e entrega orientada por resultados</li>
         </ul>
@@ -89,101 +93,101 @@
 
             <article class="project-card" data-category="Escolares" tabindex="0">
               <div class="cover" aria-hidden="true">
-                <img src="Etiqueta-escolar_1.jpeg" alt="Capa do projeto: Identidade da escola Max Alencar">
+                <img src="img/Etiqueta-escolar_1.jpeg" loading="lazy" decoding="async" height="160">
               </div>
               <div class="card-body">
-                <h3>Etiqueta escolar</h3>
-                <p class="desc">Para a disciplina de Ciências na Max Alencar, 4° ano.</p>
-                <!-- <div class="tags"><span>Branding</span><span>Packaging</span></div> -->
-              </div>
-            </article>
-            <article class="project-card" data-category="Escolares" tabindex="0">
-              <div class="cover" aria-hidden="true">
-                <img src="Etiqueta-escolar_2.jpg.jpeg" alt="Capa do projeto: Identidade para café local">
-              </div>
-              <div class="card-body">
-                <h3>Etiqueta escolar</h3>
-                <p class="desc">Para a disciplina de Ciências na Max Alencar, 4° ano.</p>
-                <!-- <div class="tags"><span>Branding</span><span>Packaging</span></div> -->
-              </div>
-            </article>
-            <article class="project-card" data-category="Escolares" tabindex="0">
-              <div class="cover" aria-hidden="true">
-                <img src="Etiqueta-escolar_3.jpg.jpeg" alt="Capa do projeto: Identidade para café local">
-              </div>
-              <div class="card-body">
-                <h3>Etiqueta escolar</h3>
-                <p class="desc">Para a disciplina de Ciências na Max Alencar, 4° ano.</p>
-                <!-- <div class="tags"><span>Branding</span><span>Packaging</span></div> -->
-              </div>
-            </article>
-            <article class="project-card" data-category="Escolares" tabindex="0">
-              <div class="cover" aria-hidden="true">
-                <img src="Caderno-person-1.jpeg" alt="Capa do projeto: Identidade para café local">
-              </div>
-              <div class="card-body">
-                <h3>Etiqueta escolar</h3>
-                <p class="desc">Para a disciplina de Ciências na Max Alencar, 4° ano.</p>
-                <!-- <div class="tags"><span>Branding</span><span>Packaging</span></div> -->
-              </div>
-            </article>
-            <article class="project-card" data-category="Escolares" tabindex="0">
-              <div class="cover" aria-hidden="true">
-                <img src="Caderno-person-2.jpeg" alt="Capa do projeto: Identidade para café local">
-              </div>
-              <div class="card-body">
-                <h3>Etiqueta escolar</h3>
-                <p class="desc">Para a disciplina de Ciências na Max Alencar, 4° ano.</p>
-                <!-- <div class="tags"><span>Branding</span><span>Packaging</span></div> -->
-              </div>
-            </article>
-            <article class="project-card" data-category="Escolares" tabindex="0">
-              <div class="cover" aria-hidden="true">
-                <img src="Caderno-person-3.jpeg" alt="Capa do projeto: Identidade para café local">
-              </div>
-              <div class="card-body">
-                <h3>Etiqueta escolar</h3>
-                <p class="desc">Para a disciplina de Ciências na Max Alencar, 4° ano.</p>
-                <!-- <div class="tags"><span>Branding</span><span>Packaging</span></div> -->
-              </div>
-            </article>
-            <article class="project-card" data-category="Escolares" tabindex="0">
-              <div class="cover" aria-hidden="true">
-                <img src="Caderno-person-4.jpeg" alt="Capa do projeto: Identidade para café local">
-              </div>
-              <div class="card-body">
-                <h3>Etiqueta escolar</h3>
-                <p class="desc">Para a disciplina de Ciências na Max Alencar, 4° ano.</p>
-                <!-- <div class="tags"><span>Branding</span><span>Packaging</span></div> -->
-              </div>
-            </article>
-            <article class="project-card" data-category="Escolares" tabindex="0">
-              <div class="cover" aria-hidden="true">
-                <img src="Caderno-person-5.jpeg" alt="Capa do projeto: Identidade para café local">
-              </div>
-              <div class="card-body">
-                <h3>Etiqueta escolar</h3>
+                <h3>Etiqueta escolar 1</h3>
                 <p class="desc">Para a disciplina de Ciências na Max Alencar, 4° ano.</p>
                 
               </div>
             </article>
             <article class="project-card" data-category="Escolares" tabindex="0">
               <div class="cover" aria-hidden="true">
-                <img src="Caderno-person-6.jpeg" alt="Capa do projeto: Identidade para café local">
+                <img src="img/Etiqueta-escolar_2.jpg.jpeg" loading="lazy" decoding="async" height="160">
               </div>
               <div class="card-body">
-                <h3>Etiqueta escolar</h3>
-                <p class="desc">Para a disciplina de Ciências na Max Alencar, 4° ano.</p>
-                <!-- <div class="tags"><span>Branding</span><span>Packaging</span></div> -->
+                <h3>Etiqueta escolar 2</h3>
+                <p class="desc">Etiqueta escolar, com o tema de fundo de Minecraft.</p>
+                
               </div>
             </article>
             <article class="project-card" data-category="Escolares" tabindex="0">
               <div class="cover" aria-hidden="true">
-                <img src="Caderno-person-7.jpeg" alt="Capa do projeto: Identidade para café local">
+                <img src="img/Etiqueta-escolar_3.jpg.jpeg" loading="lazy" decoding="async" height="160">
               </div>
               <div class="card-body">
-                <h3>Etiqueta escolar</h3>
-                <p class="desc">Para a disciplina de Ciências na Max Alencar, 4° ano.</p>
+                <h3>Etiqueta escolar 3</h3>
+                <p class="desc">Etiqueta escolar com tema neutro e escolar.</p>
+                
+              </div>
+            </article>
+            <article class="project-card" data-category="Escolares" tabindex="0">
+              <div class="cover" aria-hidden="true">
+                <img src="img/Caderno-person-1.jpeg" loading="lazy" decoding="async" height="160">
+              </div>
+              <div class="card-body">
+                <h3>Caderno personalizado</h3>
+                <p class="desc">Cadernos personalizados para fins de materiais escolares, entre outros.</p>
+                
+              </div>
+            </article>
+            <article class="project-card" data-category="Escolares" tabindex="0">
+              <div class="cover" aria-hidden="true">
+                <img src="img/Caderno-person-2.jpeg" loading="lazy" decoding="async" height="160">
+              </div>
+              <div class="card-body">
+                <h3>Caderno personalizado</h3>
+                <p class="desc">Cadernos personalizados para fins de materiais escolares, entre outros.</p>
+                
+              </div>
+            </article>
+            <article class="project-card" data-category="Escolares" tabindex="0">
+              <div class="cover" aria-hidden="true">
+                <img src="img/Caderno-person-3.jpeg" loading="lazy" decoding="async" height="160">
+              </div>
+              <div class="card-body">
+                <h3>Caderno personalizado</h3>
+                <p class="desc">Cadernos personalizados para fins de materiais escolares, entre outros.</p>
+                
+              </div>
+            </article>
+            <article class="project-card" data-category="Escolares" tabindex="0">
+              <div class="cover" aria-hidden="true">
+                <img src="img/Caderno-person-4.jpeg" loading="lazy" decoding="async" height="160">
+              </div>
+              <div class="card-body">
+                <h3>Caderno personalizado</h3>
+                <p class="desc">Cadernos personalizados para fins de materiais escolares, entre outros.</p>
+                
+              </div>
+            </article>
+            <article class="project-card" data-category="Escolares" tabindex="0">
+              <div class="cover" aria-hidden="true">
+                <img src="img/Caderno-person-5.jpeg" loading="lazy" decoding="async" height="160">
+              </div>
+              <div class="card-body">
+                <h3>Caderno personalizado</h3>
+                <p class="desc">Cadernos personalizados para fins de materiais escolares, entre outros.</p>
+                
+              </div>
+            </article>
+            <article class="project-card" data-category="Escolares" tabindex="0">
+              <div class="cover" aria-hidden="true">
+                <img src="img/Caderno-person-6.jpeg" loading="lazy" decoding="async" height="160">
+              </div>
+              <div class="card-body">
+                <h3>Caderno personalizado</h3>
+                <p class="desc">Cadernos personalizados para fins de materiais escolares, entre outros.</p>
+                
+              </div>
+            </article>
+            <article class="project-card" data-category="Escolares" tabindex="0">
+              <div class="cover" aria-hidden="true">
+                <img src="img/Caderno-person-7.jpeg" loading="lazy" decoding="async" height="160">
+              </div>
+              <div class="card-body">
+                <h3>Caderno personalizado</h3>
+                <p class="desc">Cadernos personalizados para fins de materiais escolares, entre outros.</p>
                 
               </div>
             </article>
@@ -192,30 +196,30 @@
 
             <article class="project-card" data-category="Banners" tabindex="0">
               <div class="cover">
-                <img src="Banner-1.jpeg" alt="Vende-se esse terreno">
+                <img src="img/Banner-1.jpeg" alt="Vende-se esse terreno" loading="lazy" decoding="async" height="160">
               </div>
               <div class="card-body">
-                <h3>Banner de terreno</h3>
+                <h3>Banner: venda de terreno</h3>
                 <p class="desc">Banner apresentando o terreno para venda.</p>
               </div>
             </article>
 
             <article class="project-card" data-category="Banners" tabindex="0">
               <div class="cover">
-                <img src="Banner-2.jpeg" alt="Vende-se esse terreno">
+                <img src="img/Banner-2.jpeg" alt="Vende-se esse terreno" loading="lazy" decoding="async" height="160">
               </div>
               <div class="card-body">
-                <h3>Banner de terreno</h3>
-                <p class="desc">Banner apresentando o terreno para venda.</p>
+                <h3>Banner: mulheres comprometidas</h3>
+                <p class="desc">Banner referente a mulheres comprometidas.</p>
               </div>
             </article>
 
             <article class="project-card" data-category="Banners" tabindex="0">
               <div class="cover">
-                <img src="Banner-3.jpeg" alt="Aluga-se esse terreno">
+                <img src="img/Banner-3.jpeg" alt="Aluga-se esse terreno" loading="lazy" decoding="async" height="160">
               </div>
               <div class="card-body">
-                <h3>Banner de terreno</h3>
+                <h3>Banner: aluguel de terreno</h3>
                 <p class="desc">Banner apresentando o terreno para aluguel.</p>
               </div>
             </article>
@@ -224,7 +228,7 @@
 
             <article class="project-card" data-category="Diversos" tabindex="0">
               <div class="cover">
-                <img src="Cartão_de_visita.jpg" alt="Capa do projeto: Cartão de visita">
+                <img src="img/Cartão_de_visita.jpg" alt="Capa do projeto: Cartão de visita" loading="lazy" decoding="async" height="160">
               </div>
               <div class="card-body">
                 <h3>Cartão de visita</h3>
@@ -234,7 +238,7 @@
 
             <article class="project-card" data-category="Diversos" tabindex="0">
               <div class="cover">
-                <img src="Convites.jpeg" alt="Capa do projeto: Convites">
+                <img src="img/Convites.jpeg" alt="Capa do projeto: Convites" loading="lazy" decoding="async" height="160">
               </div>
               <div class="card-body">
                 <h3>Convites</h3>
@@ -244,7 +248,7 @@
 
             <article class="project-card" data-category="Diversos" tabindex="0">
               <div class="cover">
-                <img src="Cavalete.jpeg" alt="Capa do projeto: Cavalete">
+                <img src="img/Cavalete.jpeg" alt="Capa do projeto: Cavalete" loading="lazy" decoding="async" height="160">
               </div>
               <div class="card-body">
                 <h3>Cavalete</h3>
@@ -254,47 +258,47 @@
 
             <article class="project-card" data-category="Diversos" tabindex="0">
               <div class="cover">
-                <img src="Diverso-1.jpeg" alt="Capa do projeto: Diverso 1">
+                <img src="img/Diverso-1.jpeg" alt="Capa do projeto: Diverso 1" loading="lazy" decoding="async" height="160">
               </div>
               <div class="card-body">
-                <h3>Diverso 1</h3>
+                <h3>Diversos 1</h3>
                 <p class="desc">Projeto diverso para uso variado.</p>
               </div>
             </article>
 
             <article class="project-card" data-category="Diversos" tabindex="0">
               <div class="cover">
-                <img src="Diverso-2.jpeg" alt="Capa do projeto: Diverso 2">
+                <img src="img/Diverso-2.jpeg" alt="Capa do projeto: Diverso 2" loading="lazy" decoding="async" height="160">
               </div>
               <div class="card-body">
-                <h3>Diverso 2</h3>
+                <h3>Diversos 2</h3>
                 <p class="desc">Projeto diverso para uso variado.</p>
               </div>
             </article>
 
             <article class="project-card" data-category="Diversos" tabindex="0">
               <div class="cover">
-                <img src="Diverso-3.jpeg" alt="Capa do projeto: Diverso 3">
+                <img src="img/Diverso-3.jpeg" alt="Capa do projeto: Diverso 3" loading="lazy" decoding="async" height="160">
               </div>
               <div class="card-body">
-                <h3>Diverso 3</h3>
+                <h3>Diversos 3</h3>
                 <p class="desc">Projeto diverso para uso variado.</p>
               </div>
             </article>
 
             <article class="project-card" data-category="Diversos" tabindex="0">
               <div class="cover">
-                <img src="Fachada-1.jpeg" alt="Capa do projeto: Fachada 1">
+                <img src="img/Fachada-1.jpeg" alt="Capa do projeto: Fachada 1" loading="lazy" decoding="async" height="160">
               </div>
               <div class="card-body">
-                <h3>Fachada 1</h3>
+                <h3>Fachada</h3>
                 <p class="desc">Projeto de fachada para uso variado.</p>
               </div>
             </article>
 
             <article class="project-card" data-category="Diversos" tabindex="0">
               <div class="cover">
-                <img src="Papel_de_parede.jpeg" alt="Capa do projeto: Papel de parede">
+                <img src="img/Papel_de_parede.jpeg" alt="Capa do projeto: Papel de parede" loading="lazy" decoding="async" height="160">
               </div>
               <div class="card-body">
                 <h3>Papel de parede</h3>
@@ -312,10 +316,10 @@
         <h2 class="section-title">Contato</h2>
         <p>Interessado em trabalhar junto? Envie uma mensagem:</p>
           <div class="form-actions">
-            <button type="submit" href="https://wa.me/5592994620862?text=Quero%20saber%20mais%20sobre%20o%20seu%20trabalho" class="btn">Whatsapp</button>
+            <button href="https://wa.me/5592994620862?text=Quero%20saber%20mais%20sobre%20o%20seu%20trabalho" class="btn">Whatsapp</button>
 
           </div>
-          
+          <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
         </form>
       </section>
 
@@ -329,11 +333,9 @@
     </div>
 
     <footer class="site-footer">
-      <div class="container">© Alicia Moretti — Designer</div>
+      <div class="container">© Alicia Christielly — Designer</div>
     </footer>
 
     <script src="js/script.js" defer></script>
   </body>
 </html>
-
-
